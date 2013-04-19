@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require File.expand_path(__FILE__ + "/../../lib/moodswings")
+
+name = ARGV.first
+
+unless name
+  raise "No mood specified.  Please specify `moodswings <mood>`"
+end
+
+mood = Moodswings::Mood.open(name)
+mood.load
