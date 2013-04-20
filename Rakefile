@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "moodswings"
   gem.homepage = "http://github.com/fuJiin/moodswings"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Changing your dev environment, one keystroke at a time"
+  gem.description = "Changing your dev environment, one keystroke at a time"
   gem.email = "fu7iin@gmail.com"
   gem.authors = ["Elpizo Choi"]
   # dependencies defined in Gemfile

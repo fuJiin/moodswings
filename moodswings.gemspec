@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Elpizo Choi"]
   s.date = "2013-04-19"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Changing your dev environment, one keystroke at a time"
   s.email = "fu7iin@gmail.com"
   s.executables = ["moodswing"]
   s.extra_rdoc_files = [
@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
     "lib/moodswings/mood.rb",
     "lib/moodswings/platform/osx.rb",
     "lib/moodswings/storage.rb",
+    "moodswings.gemspec",
     "spec/moodswings_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -38,7 +39,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Changing your dev environment, one keystroke at a time"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
