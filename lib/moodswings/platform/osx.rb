@@ -13,6 +13,24 @@ class Moodswings
           "-e \'end tell \'"
         )
       end
+
+      def open_app(app_name)
+        system(
+          "osascript " \
+          "-e \'tell application \"#{app_name}\"\' " \
+          "-e \'activate\' " \
+          "-e \'end tell\'"
+        )
+      end
+
+      def close_app(app_name)
+        system(
+          "osascript " \
+          "-e \'tell application \"#{app_name}\"\' " \
+          "-e \'quit\' " \
+          "-e \'end tell\'"
+        )
+      end
     end
   end
 end
